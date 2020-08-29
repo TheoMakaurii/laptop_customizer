@@ -21,8 +21,6 @@ export default class Browse extends Component {
               className="feature__option"
               name={slugify(feature)}
               checked={item.name === this.props.selected[feature].name}
-              // props.X work as one unit refer to the component where this will be imported. If you dont call it there, it wont work here!
-
               onChange={e => this.props.updateFeature(feature, item)}
             />
             <label htmlFor={itemHash} className="feature__label">
