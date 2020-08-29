@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import slugify from 'slugify';
-import STORE from './store'
+import USCurrencyFormat from './currencyFormat'
+// import UpdateFeature from 
 
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD'
-});
+
 
 export default class Browse extends Component {
   
@@ -23,6 +21,8 @@ export default class Browse extends Component {
               className="feature__option"
               name={slugify(feature)}
               checked={item.name === this.props.selected[feature].name}
+              // props.X work as one unit refer to the component where this will be imported. If you dont call it there, it wont work here!
+
               onChange={e => this.props.updateFeature(feature, item)}
             />
             <label htmlFor={itemHash} className="feature__label">

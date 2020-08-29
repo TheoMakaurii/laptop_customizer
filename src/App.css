@@ -14,8 +14,8 @@ body {
 }
 
 header {
-  background-color: #252525d2;
-  color: #fff;
+  background-color: green;
+  color: yellow;
   padding: 2rem;
 }
 
@@ -78,7 +78,7 @@ while keeping them available to the keyboard */
 .feature__label {
   display: block;
   padding: 0.8rem;
-  border: 0.1rem solid #d6d6d6;
+  border: 0.1rem solid greenyellow;
   border-radius: 0.4rem;
 }
 
@@ -87,11 +87,11 @@ while keeping them available to the keyboard */
 }
 
 .feature__option:checked + .feature__label {
-  border: 0.2rem solid #0070c9;
+  border: 0.2rem solid forestgreen;
 }
 
 .feature__option:focus + .feature__label {
-  box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.3rem #83c0fd;
+  box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.3rem green;
 }
 
 .feature__option:not(:checked) + .feature__label {
@@ -132,7 +132,7 @@ while keeping them available to the keyboard */
   line-height: 2.4;
   display: flex;
   margin-top: 1.5rem;
-  border-top: solid 1px #252525;
+  border-top: solid 3px green;
 }
 
 .summary__total__label {
