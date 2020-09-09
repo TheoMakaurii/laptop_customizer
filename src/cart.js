@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import USCurrencyFormat from './currencyFormat'
+import USCurrencyFormat from './CurrencyFormat'
 
 
 

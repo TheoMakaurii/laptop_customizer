@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import STORE from './store';
-import Browse from './browse';
-import Cart from './cart'
-import Header from './header'
-// import UpdateFeature from './updateFeature'
+import Mainform from './MainForm'
+import Header from './Header'
+import STORE from './Store';
+import MainSummary from './MainSummary';
 import './App.css';
 
 
 class App extends Component {
 
-    state=
-    {selected: STORE.selected,
-    features: STORE.FEATURES
-    }
-    
+  state=
+  {selected: STORE.selected,
+  features: STORE.FEATURES
+  }
+  
+
   updateFeature = (feature, newValue) => {
     const selected = Object.assign({}, this.state.selected);
-
     selected[feature] = newValue;
     this.setState({
       selected
@@ -24,22 +23,25 @@ class App extends Component {
     
   };
 
-render(){
-   
+  render() {
+  
     return (
-      
       <div className="App">
-          <Header/>
+        <Header />
+   
         <main>
-          {/* <updateFeature state= {this.state.selected} features ={this.state.features} /> */}
-          <Browse updateFeature = {this.updateFeature} features= {this.state.features} selected={this.state.selected}/>
-          <Cart selected={this.state.selected} />
+            <Mainform
+              theState={this.state.selected}
+              updateFeatures={this.updateFeature}
+            />
+         <MainSummary 
+          theState={this.state.selected}
+          updateFeatures={this.updateFeature}
+         />
         </main>
       </div>
-      
     );
   }
 }
-
 
 export default App;
