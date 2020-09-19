@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/laptop_customizer/static/css/main.72647eb3.chunk.css",
-    "main.js": "/laptop_customizer/static/js/main.c8802af5.chunk.js",
-    "main.js.map": "/laptop_customizer/static/js/main.c8802af5.chunk.js.map",
+    "main.js": "/laptop_customizer/static/js/main.df3db9c1.chunk.js",
+    "main.js.map": "/laptop_customizer/static/js/main.df3db9c1.chunk.js.map",
     "runtime-main.js": "/laptop_customizer/static/js/runtime-main.cff6aa8b.js",
     "runtime-main.js.map": "/laptop_customizer/static/js/runtime-main.cff6aa8b.js.map",
     "static/js/2.54426a57.chunk.js": "/laptop_customizer/static/js/2.54426a57.chunk.js",
     "static/js/2.54426a57.chunk.js.map": "/laptop_customizer/static/js/2.54426a57.chunk.js.map",
     "index.html": "/laptop_customizer/index.html",
-    "precache-manifest.e179f859f4d1d0c9ed47010b35094123.js": "/laptop_customizer/precache-manifest.e179f859f4d1d0c9ed47010b35094123.js",
+    "precache-manifest.b6022e3dcc03019050710417199e4bb2.js": "/laptop_customizer/precache-manifest.b6022e3dcc03019050710417199e4bb2.js",
     "service-worker.js": "/laptop_customizer/service-worker.js",
     "static/css/main.72647eb3.chunk.css.map": "/laptop_customizer/static/css/main.72647eb3.chunk.css.map",
     "static/js/2.54426a57.chunk.js.LICENSE.txt": "/laptop_customizer/static/js/2.54426a57.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cff6aa8b.js",
     "static/js/2.54426a57.chunk.js",
     "static/css/main.72647eb3.chunk.css",
-    "static/js/main.c8802af5.chunk.js"
+    "static/js/main.df3db9c1.chunk.js"
   ]
 }
