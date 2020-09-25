@@ -1,5 +1,5 @@
 import React from 'react'
-import Specs from './Specs'
+import Specs from '../Specs/Specs'
 
 
 class Mainform extends React.Component{

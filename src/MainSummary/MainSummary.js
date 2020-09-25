@@ -1,6 +1,6 @@
 import React from 'react'
-import Option from './Options'
-import Total from './Total'
+import Option from '../Options/Options'
+import Total from '../Total/Total'
 
 
 class MainSummary extends React.Component{

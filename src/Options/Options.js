@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import USCurrencyFormat from './CurrencyFormat'
+import USCurrencyFormat from '../CurrencyFormat/CurrencyFormat'
 
 //Cart Component
 class Option extends Component {

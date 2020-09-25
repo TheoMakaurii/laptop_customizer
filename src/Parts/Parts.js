@@ -1,6 +1,6 @@
 import React from 'react'
 import slugify from 'slugify';
-import USCurrencyFormat from './CurrencyFormat'
+import USCurrencyFormat from '../CurrencyFormat/CurrencyFormat'
 
 
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Mainform from './MainForm'
-import Header from './Header'
-import STORE from './Store';
-import MainSummary from './MainSummary';
+import Mainform from '../MainForm/MainForm'
+import Header from '../Header/Header'
+import STORE from '../Store/Store';
+import MainSummary from '../MainSummary/MainSummary';
 import './App.css';
 
 

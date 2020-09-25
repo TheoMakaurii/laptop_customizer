@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import FEATURES from './index'
-import Parts from './Parts'
+import FEATURES from '../index'
+import Parts from '../Parts/Parts'
 
 
 
